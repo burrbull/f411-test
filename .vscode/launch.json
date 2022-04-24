@@ -12,7 +12,7 @@
             "coreConfigs": [
                 {
                     "coreIndex": 0,
-                    "programBinary": "/home/burrbull/builds/f411-test/${config:rust-analyzer.cargo.target}/debug/f411-test",
+                    "programBinary": "${workspaceFolder}/target/${config:rust-analyzer.cargo.target}/debug/f411-test",
                     "svdFile": "stm32f411.svd.patched",
                     "rttEnabled": true,
                     "rttChannelFormats": [
